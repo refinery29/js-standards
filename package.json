@@ -1,6 +1,6 @@
 {
-  "name": "js-standards",
-  "version": "1.0.0",
+  "name": "@r29/js-standards",
+  "version": "2.0.0",
   "description": "Documentation and configuration shared by all teams that use JavaScript @ R29 Edit",
   "main": "",
   "scripts": {
