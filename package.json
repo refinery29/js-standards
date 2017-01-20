@@ -1,0 +1,19 @@
+{
+  "name": "js-standards",
+  "version": "1.0.0",
+  "description": "Documentation and configuration shared by all teams that use JavaScript @ R29 Edit",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refinery29/js-standards.git"
+  },
+  "author": "Refinery29",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/refinery29/js-standards/issues"
+  },
+  "homepage": "https://github.com/refinery29/js-standards#readme"
+}
