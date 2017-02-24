@@ -57,6 +57,7 @@ module.exports = {
     "no-use-before-define": [2, "nofunc"],
     "no-with": 2,
     "no-var": 2,
+    "object-curly-spacing": [2, "always"],
     "one-var": [2, { "var": "always", "let": "never", "const": "never" }],
     "prefer-const": 2,
     "quotes": [2, "single", "avoid-escape"],
