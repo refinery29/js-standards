@@ -18,6 +18,6 @@
   "homepage": "https://github.com/refinery29/js-standards#readme",
   "peerDependencies": {
     "eslint": "^3.13.1",
-    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-react": "^6.9.0"
   }
 }
