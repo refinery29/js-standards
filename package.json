@@ -1,6 +1,6 @@
 {
   "name": "@r29/js-standards",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Documentation and configuration shared by all teams that use JavaScript @ R29 Edit",
   "main": "",
   "scripts": {
@@ -18,6 +18,6 @@
   "homepage": "https://github.com/refinery29/js-standards#readme",
   "peerDependencies": {
     "eslint": "^3.13.1",
-    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-react": "^6.9.0"
   }
 }
