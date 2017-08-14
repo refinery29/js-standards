@@ -2,7 +2,7 @@
   "name": "@r29/js-standards",
   "version": "2.1.1",
   "description": "Documentation and configuration shared by all teams that use JavaScript @ R29 Edit",
-  "main": "",
+  "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
