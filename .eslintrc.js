@@ -50,6 +50,25 @@ module.exports = {
     "no-multi-spaces": 2,
     "no-multi-str": 2,
     "no-multiple-empty-lines": 2,
+    "no-restricted-properties": [
+      2,
+      {
+        object: "it",
+        property: "only"
+      },
+      {
+        object: "describe",
+        property: "only"
+      },
+      {
+        object: "it",
+        property: "skip"
+      },
+      {
+        object: "describe",
+        property: "skip"
+      }
+    ],
     "no-spaced-func": 2,
     "no-trailing-spaces": 2,
     "no-undefined": 2,
