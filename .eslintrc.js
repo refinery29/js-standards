@@ -14,7 +14,8 @@ module.exports = {
     sourceType: "module"
   },
   plugins: [
-    "react"
+    "react",
+    "mocha"
   ],
   rules: {
     "array-bracket-spacing": [2, "never"],
@@ -37,6 +38,7 @@ module.exports = {
     "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
     "keyword-spacing": 2,
     "linebreak-style": [2, "unix"],
+    "mocha/no-exclusive-tests": 2,
     "new-cap": 2,
     "no-bitwise": 2,
     "no-caller": 2,
@@ -50,25 +52,6 @@ module.exports = {
     "no-multi-spaces": 2,
     "no-multi-str": 2,
     "no-multiple-empty-lines": 2,
-    "no-restricted-properties": [
-      2,
-      {
-        object: "it",
-        property: "only"
-      },
-      {
-        object: "describe",
-        property: "only"
-      },
-      {
-        object: "it",
-        property: "skip"
-      },
-      {
-        object: "describe",
-        property: "skip"
-      }
-    ],
     "no-spaced-func": 2,
     "no-trailing-spaces": 2,
     "no-undefined": 2,
