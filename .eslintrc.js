@@ -14,7 +14,8 @@ module.exports = {
     sourceType: "module"
   },
   plugins: [
-    "react"
+    "react",
+    "mocha"
   ],
   rules: {
     "array-bracket-spacing": [2, "never"],
@@ -37,6 +38,7 @@ module.exports = {
     "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
     "keyword-spacing": 2,
     "linebreak-style": [2, "unix"],
+    "mocha/no-exclusive-tests": 2,
     "new-cap": 2,
     "no-bitwise": 2,
     "no-caller": 2,
