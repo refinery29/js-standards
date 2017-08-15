@@ -1,3 +1,8 @@
+## 2.1.2 (August 15, 2017)
+
+* Add mocha/no-exclusive-tests rule
+* Declare peerDependencies foreslint-plugin-mocha
+
 ## 2.1.0 (March 30, 2017)
 
 * Add object-curly-spacing rule
