@@ -1,0 +1,6 @@
+'use strict';
+
+module.exports = {
+  "presets": ["es2015", "react", "stage-3"],
+  "plugins": ["transform-class-properties"]
+};
