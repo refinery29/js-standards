@@ -1,0 +1,26 @@
+{
+  "name": "babel-preset-r29",
+  "version": "1.0.1",
+  "description": "Babel preset for Refinery29",
+  "main": "index.js",
+  "repository": "https://github.com/refinery29/js-standards/tree/master/babel-preset-r29",
+  "keywords": [
+    "babel",
+    "es6",
+    "es2015",
+    "javascript",
+    "babel-preset"
+  ],
+  "author": "Refinery29 <dev@refinery29.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/refinery29/js-standards/issues"
+  },
+  "homepage": "https://github.com/refinery29/js-standards/tree/master/babel-preset-r29#readme",
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}

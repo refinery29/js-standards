@@ -1,23 +1,20 @@
-module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-    node: true
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
   },
-  extends: "eslint:recommended",
-  parserOptions: {
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-      modules: true,
-      jsx: true
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "modules": true,
+      "jsx": true
     },
-    sourceType: "module"
+    "sourceType": "module"
   },
-  plugins: [
-    "react",
-    "mocha"
-  ],
-  rules: {
+  "plugins": ["react", "mocha"],
+  "rules": {
     "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "always"],
     "brace-style": [2, "1tbs", { "allowSingleLine": true }],
@@ -45,7 +42,7 @@ module.exports = {
     "no-cond-assign": 2,
     "no-dupe-keys": 2,
     "no-duplicate-case": 2,
-    "no-else-return" : 2,
+    "no-else-return": 2,
     "no-empty": 2,
     "no-extra-semi": 2,
     "no-mixed-spaces-and-tabs": 2,
@@ -100,4 +97,4 @@ module.exports = {
     "wrap-iife": 2,
     "yoda": [2, "never"]
   }
-};
+}
