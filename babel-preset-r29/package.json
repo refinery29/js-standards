@@ -11,7 +11,7 @@
     "javascript",
     "babel-preset"
   ],
-  "author": "Noah Lemen <noah.lemen@refinery29.com>",
+  "author": "Refinery29 <dev@refinery29.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/refinery29/js-standards/issues"
