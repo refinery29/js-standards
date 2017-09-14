@@ -2,7 +2,7 @@
   "name": "eslint-config-r29",
   "version": "1.0.0",
   "description": "eslint config for Refinery29",
-  "main": ".eslintrc.js",
+  "main": ".eslintrc",
   "repository": "https://github.com/refinery29/js-standards/tree/master/eslint-config-r29",
   "keywords": [
     "eslint",
