@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-r29",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Babel preset for Refinery29",
   "main": "index.js",
   "repository": "https://github.com/refinery29/js-standards/tree/master/babel-preset-r29",
