@@ -5,6 +5,9 @@ module.exports = function (context, opts = {}) {
   if (opts.modules !== undefined) {
     es2015[1].modules = opts.modules;
   }
+  if (opts.loose !== undefined) {
+    es2015[1].loose = opts.loose;
+  }
 
   return {
     presets: [es2015, "react", "stage-3"],
