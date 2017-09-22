@@ -35,6 +35,14 @@ require("babel-core").transform("code", {
 ```
 
 ### Supported options
+#### loose
+`boolean`, defaults to `false`.
+
+Turns on the ES2015 plugin's loose mode.
+http://2ality.com/2015/12/babel6-loose-mode.html
+
+In practice we have found that this can reduce bundle size by ~5%.
+
 #### modules
 `"amd" | "umd" | "systemjs" | "commonjs" | false`, defaults to "commonjs".
 
