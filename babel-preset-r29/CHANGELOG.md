@@ -1,3 +1,7 @@
+## 2.1.0 (March 28, 2018)
+
+* Allow `node: true` option, so that we can target Node v6
+
 ## 2.0.0 (January 05, 2018)
 
 * Use `babel-preset-env` in place of `babel-preset-es2015`
