@@ -20,6 +20,18 @@ npm install --save-dev babel-preset-r29
 }
 ```
 
+or, with some of our [supported options](#supported-options):
+
+```json
+{
+  "presets": [
+    "r29", {
+      "node": true
+    }
+  ]
+}
+```
+
 ### Via CLI
 
 ```sh
@@ -35,6 +47,12 @@ require("babel-core").transform("code", {
 ```
 
 ### Supported options
+#### node
+`boolean`, defaults to `false`.
+
+Targets Node v6 instead of browsers. Useful for avoiding the inclusion of
+unnecessary things like the regenerator runtime in our server builds.
+
 #### loose
 `boolean`, defaults to `false`.
 
@@ -48,8 +66,8 @@ In practice we have found that this can reduce bundle size by ~5%.
 
 Enable transformation of ES6 module syntax to another module type.
 
-Setting this to false will not transform modules. Use this for Webpack 2,
-since Webpack 2's tree-shaking works best if you don't transform `import`/`export`
+Setting this to false will not transform modules. Use this for Webpack >=2,
+since Webpack >=2's tree-shaking works best if you don't transform `import`/`export`
 statements.
 
 Example of a Webpack config where this is the case:
