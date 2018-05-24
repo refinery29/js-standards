@@ -1,18 +1,21 @@
 {
   "name": "eslint-config-r29",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "eslint config for Refinery29",
   "main": ".eslintrc",
-  "repository":
-    "https://github.com/refinery29/js-standards/tree/master/eslint-config-r29",
-  "keywords": ["eslint", "lint", "javascript", "eslint-config"],
+  "repository": "https://github.com/refinery29/js-standards/tree/master/eslint-config-r29",
+  "keywords": [
+    "eslint",
+    "lint",
+    "javascript",
+    "eslint-config"
+  ],
   "author": "Refinery29 <dev@refinery29.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/refinery29/js-standards/issues"
   },
-  "homepage":
-    "https://github.com/refinery29/js-standards/tree/master/eslint-config-r29#readme",
+  "homepage": "https://github.com/refinery29/js-standards/tree/master/eslint-config-r29#readme",
   "peerDependencies": {
     "eslint": "^4.19.1",
     "eslint-plugin-mocha": "^5.0.0",
