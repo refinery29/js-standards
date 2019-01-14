@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function (context, opts = {}) {
-  var env = ['env', {}];
+  var env = ['@babel/env', {}];
 
   if (opts.node === true) {
     env[1].targets = { node: '6.13' };
@@ -14,7 +14,12 @@ module.exports = function (context, opts = {}) {
   }
 
   return {
-    presets: [env, "react", "stage-3"],
-    plugins: ["transform-class-properties"]
+    presets: [env, "@babel/react"],
+    plugins: [
+      "@babel/syntax-dynamic-import",
+      "@babel/syntax-import-meta",
+      ["@babel/proposal-class-properties", { "loose": false }],
+      "@babel/proposal-json-strings"
+    ]
   };
 };
