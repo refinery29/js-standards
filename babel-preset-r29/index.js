@@ -2,10 +2,12 @@
 
 module.exports = function (context, opts = {}) {
   var env = ['@babel/env', {}];
+  var supportedBrowsers = [ ">0.25%", "not ie <= 8", "not op_mini all"];
 
-  if (opts.node === true) {
-    env[1].targets = { node: '6.13' };
-  }
+  env[1].targets = (opts.node === true)
+    ? { node: '6.13' }
+    : { browsers: supportedBrowsers };
+
   if (opts.modules !== undefined) {
     env[1].modules = opts.modules;
   }
