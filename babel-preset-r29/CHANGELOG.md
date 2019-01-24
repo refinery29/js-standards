@@ -1,3 +1,7 @@
+## 3.0.0 (January 24, 2019)
+
+* Require Babel 7 and update dependencies
+
 ## 2.1.0 (March 28, 2018)
 
 * Allow `node: true` option, so that we can target Node v6
