@@ -1,7 +1,6 @@
 {
   "env": {
     "browser": true,
-    "es6": true,
     "node": true
   },
   "extends": "eslint:recommended",
@@ -11,6 +10,7 @@
       "modules": true,
       "jsx": true
     },
+    "ecmaVersion": 10,
     "sourceType": "module"
   },
   "plugins": ["react", "mocha"],
